@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+body {
+	background-color: white;
+}
+
+#container{
+	box-shadow: 3px 3px 3px 3px white;
+	height: 600px;
+	width: 400px;
+	margin: auto;
+  box-sizing: border-box;
+}
+img{
+	display: block;
+	margin-right: auto;
+	width: 20%;
+	margin-left: auto;
+}
+
+h3{
+	text-align: center;
+
+}
+h4 {
+  text-align: left;
+  margin-left: 5px;
+}
+p {
+	text-align: left;
+  margin-left: 5px;
+}
+p[class=text] ,select{
+  text-align: left;
+  margin-left: 5px;
+}
+p[class=text1] ,select{
+  text-align: left;
+  margin-left: 5px;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: lightgrey;
+  text-align: left;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  margin: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  border-color: grey;
+}
+    .btns {
+      width: 35%;
+      display: flex;
+        margin: auto;
+        justify-content: space-between;
+        flex-direction: row !important;
+        align-items: center;
+        text-align: left;
+        cursor: pointer;
+    }
+ .btns :hover{
+background-color: white;
+color: yellow;
+ }
+
+.passform{
+  padding-top: 50px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.btn{
+	margin-top: 80px;
+  width: 100%;
+}
+
+.btn button {
+  background-color: white; 
+  border: 2px solid yellow; /* yellow border */
+  color: black; 
+  padding: 10px 24px; 
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 40%;
+  margin-right: 6px;
+}
+
+
+.btn button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+
+/*HTML3*/
+.container {
+  margin: 2rem auto;
+  margin-top: 5rem !important;
+        max-width: 400px;
+        padding: 20px;
+        color: white;
+        line-height: 1.8;
+        box-sizing: border-box;
+        background-color: white;
+        background-position: center;
+        display: block;
+}
+.file{
+  position: absolute;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  margin-left: 10px;
+  text-align: left;
+}
+
+ #alligned {
+    display: inline-block;
+    align-items: center;
+    background-color: grey;
+}
+  #image-1 {
+    display: inline-block;
+    align-items: center;
+    background-color: grey;
+  }
+h1 {
+  padding: 5px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+
